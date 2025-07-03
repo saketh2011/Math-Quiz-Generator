@@ -161,14 +161,79 @@ elif str(ask) == "Algebra 2":
         else:
             print("Your wrong!, the correct answer is 7,8,9")
     if int(y) == 6:
+        # Unit 6 Algebra 2
         print("ABSOLUTE VALUES QUIZ:")
-        # Unit 3 Question 1 Algebra 2
+        # Unit 6 Question 1 Algebra 2
         unit6_q1_alg2 = input("What is the cube root of 56r^8s^4? (write cube root as cube root) Follow example: What is the 4th root of 216m^3n^6? Answer:2mn^2 * 4th root of 3n^3: ")
         if str(unit6_q1_alg2) == "2r^2s * cube root 7r^2s" or str(unit6_q1_alg2) == "2sr^2 * cube root of 7sr^2" or str(unit6_q1_alg2) == "2sr^2 * cube root of 7r^2s" or str(unit6_q1_alg2) == "2r^2s * cube root of 7sr^2s":
             print("Your correct!")
             score += 1
         else:
             print("Your wrong! The correct answer is 2r^2s cube root of 7r^2s")
+        # Unit 6 Question 2 Algebra 2
+        unit6_q2_alg2 = input("What is the 4th root of 625c^23d^11? Use previous model to know how to structure your answer: ")
+        if str(unit6_q2_alg2) == "5c^5d^2 * 4th root of c^3d^3" or str(unit6_q2_alg2) == "5d^2c^5 * 4th root of c^3d^3" or str(unit6_q2_alg2) == "5c^5d^2 * 4th root of d^3c^3" or str(unit6_q2_alg2) == "5d^2c^5 * 4th root of d^3c^3"
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is 5d^2c^5 * 4th root of c^3d^3")
+        # Unit 6 Question 3 Algebra 2
+        unit6_q3_alg2 = input("(3+sqrt7)/(2+2sqrt7) Write square root as sqrt!: ")
+        if str(unit6_q3_alg2) == "(2+sqrt7)/6" or str(unit6_q3_alg2) == "(2+sqrt(7))/6" or str(unit6_q3_alg2) == "(2+(sqrt(7))/6" or str(unit6_q3_alg2) == "(2+(sqrt7))/6"
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is (2+sqrt7)/6")
+        # Unit 6 Question 4 Algebra 2
+        unit6_q4_alg2 = input("Rewrite in simplest radical form: (m^5/2)/(m^7/4)? Write like this: Example: The ___ root of _____: ")
+        if str(unit6_q4_alg2) == "The fourth root of m^3" 
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is The fourth root of m^3")
+        # Unit 6 Question 5 Algebra 2
+        unit6_q5_alg2 = input("sqrt(6w-5) + 10 = 3, what is w?: ")
+        if str(unit6_q5_alg2) == "No Solution" or if str(unit6_q5_alg2) == "no solution" or if str(unit6_q5_alg2) == "No solution" or if str(unit6_q5_alg2) == "no Solution"
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is No Solution!")
+        # Unit 6 Question 6 Algebra 2
+        unit6_q6_alg2 = input("-36=-9(c-12)^1/2, find c: ")
+        if str(unit6_q6_alg2) == "c=28" or if str(unit6_q6_alg2) == "28"
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is 28!")
+        # Unit 6 Question 7 Algebra 2
+        unit6_q7_alg2 = input("sqrt(12-a)+7a=8a, what is a?: ")
+        if str(unit6_q7_alg2) == "a=3" or if str(unit6_q7_alg2) == "3"
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is 3!")
+        # Unit 6 Question 8 Algebra 2
+        unit6_q8_alg2 = input("What is the domain of 3sqrt(x+1) in interval notation?: ")
+        if str(unit6_q8_alg2) == "[-1,∞)" or if str(unit6_q8_alg2) == "[-1, ∞)" 
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is [-1,∞)!")
+        # Unit 6 Question 9 Algebra 2
+        unit6_q9_alg2 = input("Find the inverse of (x-8)/3 (copy paste: f⁻¹(x)): ")
+        if str(unit6_q9_alg2) == "f⁻¹(x) = 3x+8" or if str(unit6_q9_alg2) == "f⁻¹(x)=3x + 8" or if str(unit6_q9_alg2) == "f⁻¹(x)=3x +8" or if str(unit6_q9_alg2) == "f⁻¹(x)=3x+ 8"  
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is f⁻¹(x)=3x+8")
+        # Unit 6 Question 10 Algebra 2
+        unit6_q10_alg2 = input("Is f(x) and g(x) inverses? f(x) = x^2+8 (x>=0) and g(x) = sqrt(x-8) (yes or no): ")
+        if str(unit6_q10_alg2) == "Yes" or str(unit6_q10_alg2) == "yes" 
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer is Yes!")
+
 
 elif str(ask) == "Geometry": 
     print("yk ms pam is the best")
