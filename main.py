@@ -233,9 +233,82 @@ elif str(ask) == "Algebra 2":
             score += 1
         else:
             print("Your wrong! The correct answer is Yes!")
+    if int(y) == 7:
+        # Unit 7 Algebra 2
+        print("RATIONAL FUNCTIONS QUIZ:")
+        # Unit 7 Question 1 Algebra 2
+        unit7_q1_alg2 = input("Simplify (4a^2b^2)/(15ab^3)) * ((5a^3b^6)/(12a^4b^7)): ")
+        if str(unit7_q1_alg2) == "1/(9b^2)" or str(unit7_q1_alg2) == "(1)/(9b^2)" or str(unit7_q1_alg2) == "1/9b^2":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 1/(9b^2)")
+        # Unit 7 Question 2 Algebra 2
+        unit7_q2_alg2 = input("Simplify (r/(2r+8))+(8/(r^2+4r)): ")
+        if str(unit7_q2_alg2) == "(r^2+16)/(2r(r+4))" or str(unit7_q2_alg2) == "r^2/2r(r+4)":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer (r^2)/(2r(r+4))")
+        # Unit 7 Question 3 Algebra 2
+        unit7_q3_alg2 = input("Where is the hole at (x+5)/(x^2+9x+20) (if none type N/A): ")
+        if str(unit7_q3_alg2) == "(-5,-1)" or str(unit7_q3_alg2) == "(-5, -1)" or str(unit7_q3_alg2) == "-5,-1":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer (-5,-1)")
+        # Unit 7 Question 4 Algebra 2
+        unit7_q4_alg2 = input("Where is the hole at (x^2-1)/(x-1) (if none type N/A): ")
+        if str(unit7_q4_alg2) == "N/A":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer N/A")
+        print("Use this function: f(x) = (x^2 - 1)/(x-2) to answer questions 5 and 6: ")
+        # Unit 7 Question 5 Algebra 2
+        unit7_q5_alg2 = input("What is the non-vertical asymptote of the above function?:")
+        if str(unit7_q5_alg2) == "x+2" or str(unit7_q5_alg2) == "x+ 2" or str(unit7_q5_alg2) == "x + 2" or str(unit7_q5_alg2) == "x +2":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer x+2")
+        # Unit 7 Question 6 Algebra 2
+        unit7_q6_alg2 = input("What is the domain of the above function? (copy paste: ∞ and use U for union): ")
+        if str(unit7_q6_alg2) == "(-∞,2) U (2,∞)" or str(unit7_q6_alg2) == "(-∞,2)U(2,∞)":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer (-∞,2) U (2,∞)")
+        # Unit 7 Question 7 Algebra 2
+        unit7_q7_alg2 = input("(p/(p-2)) + 2 = 8/(p^2-4) (do not write p=): ")
+        if str(unit7_q7_alg2) == "-8/3":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer -8/3")
+        # Unit 7 Question 8 Algebra 2
+        unit7_q8_alg2 = input("(x+6)/(x+3)=2-(5x+12)/(x+3): ")
+        if str(unit7_q8_alg2) == "No Solution" or str(unit7_q8_alg2) == "no Solution" or str(unit7_q8_alg2) == "no solution" or str(unit7_q8_alg2) == "No solution":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer No Solution")
+        # Unit 7 Question 9 Algebra 2
+        unit7_q9_alg2 = input("The dollar amount (d) that Megan varies directly with the number of hours (h) that she work. In her last paycheck, she earned $148.50 working 18 hours. If her next paycheck is $90.75, how many hours did she work? Do not include units!: ")
+        if str(unit7_q9_alg2) == "11":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 11")
+    # Unit 7 Question 10 Algebra 2
+        unit7_q10_alg2 = input("a varies directly with as b and inversely with c. If a=16 and b=12 and c=6, find a when b=28 and c=4. Do not include a=!: ")
+        if str(unit7_q10_alg2) == "56":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 56")
 
-
-elif str(ask) == "Geometry": 
+elif str(ask) == "Geometry":
     print("yk ms pam is the best")
 else:
     print("Please write an acceptable math course")
