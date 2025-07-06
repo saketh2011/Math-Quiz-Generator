@@ -307,7 +307,7 @@ elif str(ask) == "Algebra 2":
             score += 1
         else:
             print("Your wrong! The correct answer 56")
-    if int(y) == 7:
+    if int(y) == 8:
         # Unit 8 Algebra 2
         print("LOGARITHMICS QUIZ:")
         # Unit 8 Question 1 Algebra 2
@@ -345,6 +345,41 @@ elif str(ask) == "Algebra 2":
             score += 1
         else:
             print("Your wrong! The correct answer -9,2")
+        # Unit 8 Question 6 Algebra 2
+        unit8_q6_alg2 = input("5 * 9^(v-1) + 1 = 181. Find v, and round to the nearest ten-thousandth: ")
+        if str(unit8_q6_alg2) == "2.6309":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 2.6309")
+        # Unit 8 Question 7 Algebra 2
+        unit8_q7_alg2 = input("-2 * 5^p +7 = -63, find p and round to the nearest ten-thousandth: ")
+        if str(unit8_q7_alg2) == "2.2091":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 2.2091")
+        # Unit 8 Question 8 Algebra 2
+        unit8_q8_alg2 = input("FInd e^(y+3) -6 = 24 round to the nearest ten-thousandth: ")
+        if str(unit8_q8_alg2) == "0.4012":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 0.4012")
+        # Unit 8 Question 9 Algebra 2
+        unit8_q9_alg2 = input("A savings account offers 0.8% interest compounded bimontly. If Bob deposited $300 into this account, how much interest will he earn in 10 years? (Do not include $): ")
+        if str(unit8_q9_alg2) == "24.98":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 24.98")
+        # Unit 8 Question 10 Algebra 2
+        unit8_q10_alg2 = input("Put this on a paper (table): Years: 2009,2010,2011,2012,2013,and 2014. Balance $: 500,540,583.2,629.86,680.24,734.66. Using a TI-84 or other HANDHELD graphing calculator, find r values and determine whethere the function is exponential, linear, or cubic: ")
+        if str(unit8_q10_alg2) == "Exponential" or str(unit8_q10_alg2) == "exponential":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer Exponential")
 elif str(ask) == "Geometry":
     print("yk ms pam is the best")
 else:
