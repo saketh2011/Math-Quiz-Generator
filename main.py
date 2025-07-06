@@ -1,6 +1,6 @@
 ask = input("What level of math would you like?(copy paste: Algebra 1, Algebra 2, Geometry): ")
 
-print("READ THIS PLEASE! Before the quiz(es) start, make sure to use / for division, * for multiplication, ^ for exponent, sqrt for (√ ), + for addition, - for subtraction, the imaginary unit as i, and write the plus/minus sign as +-. Moreover, all answers are expected exact and simplified unless specifically asked for. Do not write x=, just write the answer! Desmos is permitted for Algebra 1, but for Geometry or Algebra 2, only the TI-84 or a different advanced calculator is permitted. Good luck!")
+print("READ THIS PLEASE! Before the quiz(es) start, make sure to use / for division, * for multiplication, ^ for exponent, sqrt for (√ ), + for addition, - for subtraction, the imaginary unit as i, write the plus/minus sign as +-, logartihmic as log, natural logarthmic as ln, and the mathematical term e as e. Moreover, all answers are expected exact and simplified unless specifically asked for. Do not write x= UNLESS it is for asymptotes, just write the answer! Desmos is permitted for Algebra 1, but for Geometry or Algebra 2, only the TI-84 or a different advanced calculator is permitted. Good luck!")
 
 score = 0
 
@@ -307,7 +307,44 @@ elif str(ask) == "Algebra 2":
             score += 1
         else:
             print("Your wrong! The correct answer 56")
-
+    if int(y) == 7:
+        # Unit 8 Algebra 2
+        print("LOGARITHMICS QUIZ:")
+        # Unit 8 Question 1 Algebra 2
+        unit8_q1_alg2 = input("Q1(unfinished): ")
+        if str(unit8_q1_alg2) == "":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer unfinished")
+        # Unit 8 Question 2 Algebra 2
+        unit8_q2_alg2 = input("Condense log base 3 of 4 + log base 3 of y + log base 3 of 49. Write answer like this: log base ____ of ____: ")
+        if str(unit8_q2_alg2) == "log base 3 of 28y":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer log base 3 of 28y")
+        # Unit 8 Question 3 Algebra 2
+        unit8_q3_alg2 = input("Expand log base 3 of the 4th root of (m^5n^2). Write answer like this(copy paste): number * log base ____ of ____ + number * log base ____ of ____. Also , if write number as fraction: ")
+        if str(unit8_q3_alg2) == "5/4 * log base 3 of m + 1/2 * log base 3 of n":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer 5/4 * log base 3 of m + 1/2 * log base 3 of n")
+        # Unit 8 Question 4 Algebra 2
+        unit8_q4_alg2 = input("Where is the asymptote at log base 1/2 of (x+9) +4?: ")
+        if str(unit8_q4_alg2) == "x=-9" or str(unit8_q4_alg2) == "x= -9" or str(unit8_q4_alg2) == "x =-9" or str(unit8_q4_alg2) == "x = -9":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer x=-9")
+        # Unit 8 Question 5 Algebra 2
+        unit8_q5_alg2 = input("log base 4 of m^2 = log base 4 of (18-7m), find m. If multiple answers are found, seperate by comma, and DO NOT write m=!: ")
+        if str(unit8_q5_alg2) == "-9,2" or str(unit8_q5_alg2) == "-9, 2":
+            print("Your correct!")
+            score += 1
+        else:
+            print("Your wrong! The correct answer -9,2")
 elif str(ask) == "Geometry":
     print("yk ms pam is the best")
 else:
